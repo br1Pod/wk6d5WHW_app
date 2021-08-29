@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/app.js"></script>
+    <title>App</title>
+</head>
+<body>
+    <header>
+        <h1>App</h1>
+
+        <p>Blah blah blah</p>
+    </header>
+
+    <article>
+        <form id = "input_form">
+            <div class="form-block">
+                <label for="teamname" class="form_label">Team Name</label>
+                <input type="text" id="teamname" required/>
+            </div>
+    
+            <div class="form-block">
+                <label for="manager" class="form_label">Manager</label>
+                <input type="text" id="manager" required/>
+            </div>
+
+            <div class="form-block">
+                <label for="stadium" class="form_label">Stadium</label>
+                <input type="text" id="stadium" required/>
+            </div>
+    
+            <div class="form-block">
+                <label for="city" class="form_label">City</label>
+                <select id="city">
+                <option value="" disabled selected></option>
+                <option value="Edinburgh">Edinburgh</option>
+                <option value="Glasgow">Glasgow</option>
+                <option value="Dundee">Dundee</option>
+                <option value="Aberdeen">Aberdeen</option>
+                <option value="Perth">Perth</option>
+                </select>
+            </div>
+        </form>
+    </article>
+    
+    <ul id = "output_list">
+        <li></li>
+    </ul>
+</body>
+</html>
