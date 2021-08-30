@@ -47,8 +47,11 @@ article {
 }
 
 .form_block input,
-.form_block select {
+.form_block select, 
+#clear_list {
     background-color: lemonchiffon;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
 
 #output_list {
