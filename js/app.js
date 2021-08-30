@@ -32,6 +32,10 @@ const createTeamListItem = function (form) {
     const stadium = document.createElement('li');
     stadium.textContent = form.stadium.value;
     teamListItem.appendChild(stadium);
+
+    const stadium_atmosphere = document.createElement('li');
+    stadium_atmosphere.textContent = form.stadium_atmosphere.value;
+    teamListItem.appendChild(stadium_atmosphere);
   
     const city = document.createElement('li');
     city.textContent = form.city.value;
